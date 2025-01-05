@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+editor_de_texto="nano"
+
+header="#!/usr/bin/env bash
+#----------------------------------------------------
+# Descrição : 
+# Versão    : 0.1
+# Autor     : Arthur Gabriel <arthur.albuquerque@lsd.ufcg.edu.br>
+# Data      : $( date +'%d/%m/%Y')
+# Licensa   : GNU/GPL v3.0
+#----------------------------------------------------
+# Uso:
+#----------------------------------------------------
+"
+[[ $# -ne 1 ]] && echo "Adicione como argumento apenas o nome do script a ser criado" && exit 1
+
+[[ -f $1 ]] && echo "Esse arquivo já existe favor tente outro nome" && exit 1
+
+echo "$header" > $1
+
+chmod 700 $1
+
+$editor_de_texto $1
+
+exit 0
