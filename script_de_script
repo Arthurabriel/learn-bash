@@ -4,6 +4,7 @@ editor_de_texto="nano"
 
 header="#!/usr/bin/env bash
 #----------------------------------------------------
+# Script    :
 # Descrição : 
 # Versão    : 0.1
 # Autor     : Arthur Gabriel <arthur.albuquerque@lsd.ufcg.edu.br>
