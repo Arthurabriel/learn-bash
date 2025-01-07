@@ -9,7 +9,7 @@ header="#!/usr/bin/env bash
 # Versão    : 0.1
 # Autor     : Arthur Gabriel <arthur.albuquerque@lsd.ufcg.edu.br>
 # Data      : $( date +'%d/%m/%Y')
-# Licensa   : GNU/GPL v3.0
+# Licença   : GNU/GPL v3.0
 #----------------------------------------------------
 # Uso:
 #----------------------------------------------------
